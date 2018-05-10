@@ -12,7 +12,7 @@ This API server provides the implementation for exposing namespace-proxied `etcd
 
 HEAD of this repo will match HEAD of k8s.io/apiserver, k8s.io/apimachinery, and k8s.io/client-go.
 
-# Running `etcdstorage-apiserver`
+## Running `etcdstorage-apiserver`
 
 Steps for running the API server is similar to steps for running [`sample-apiserver`](https://github.com/kubernetes/sample-apiserver#running-it-stand-alone), so check it out for running API server.
 
