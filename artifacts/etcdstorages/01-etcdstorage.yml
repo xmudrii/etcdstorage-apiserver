@@ -1,0 +1,6 @@
+apiVersion: etcdstorage.k8s.io/v1alpha1
+kind: EtcdStorage
+metadata:
+  name: my-first-etcd
+  labels:
+    sample-label: "true"

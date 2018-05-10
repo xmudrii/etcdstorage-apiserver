@@ -1,0 +1,13 @@
+language: go
+
+go:
+  - "1.10"
+
+sudo: required
+
+jobs:
+  include:
+    - stage: Check go files
+      script: make verify-ci
+    - stage: Compile
+      script: make compile
