@@ -1,5 +1,7 @@
 # etcdstorage-apiserver
 
+This API server served as initial prototype for my GSoC Project—Storage API for Aggregated API Server, but it was decided to use CRDs instead. The new controller can be found in the [`xmudrii/etcdproxy-controller`](https://github.com/xmudrii/etcdproxy-controller) repository.
+
 Implements: https://groups.google.com/d/msg/kubernetes-sig-api-machinery/rHEoQ8cgYwk/iglsNeBwCgAJ
 
 It provides an API for handling `etcd` endpoints.
